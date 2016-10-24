@@ -20,7 +20,7 @@ public class TJMediaMiner {
 	public static void main(String[] args) {
 		SimpleDateFormat month = new SimpleDateFormat("MM");
 		SimpleDateFormat year = new SimpleDateFormat("YYYY");
-		Calendar cal = new GregorianCalendar(2007,0,1);
+		Calendar cal = new GregorianCalendar(2016,0,1); //you can go as far back as 2007
 		Calendar now = Calendar.getInstance();
 		now.add(Calendar.MONTH, 1);
 		
